@@ -1,0 +1,88 @@
+
+main > h2{
+    text-align: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.titre-page-boisson{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 10cap;
+    font-weight: bold;
+    color: yellow;
+    background-color: red;
+    margin: 0px;
+}
+.boisson{
+    background-color: yellow;
+    margin: 0px;
+}
+.carte{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.titre-page-dessert{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 10cap;
+    font-weight: bold;
+    color: greenyellow;
+    background-color: green;
+    margin: 0px;
+}
+.dessert{
+    background-color: greenyellow;
+    margin: 0px;
+}
+.titre2{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+.titre-page-plat{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 10cap;
+    font-weight: bold;
+    color: cyan;
+    background-color: blue;
+    margin: 0px;
+}
+.plat{
+    background-color: cyan;
+    margin: 0%;
+}
+.plat2{
+    background-color: rgb(0, 167, 167);
+}
+.dessert2{
+    background-color: rgb(112, 184, 5);
+}
+.boisson2{
+    background-color: rgb(160, 160, 0);
+}
+.lien{
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+#merde{
+    color: red;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.img-recette{
+    max-width: 20vw; 
+    max-height: 20vh; 
+    width: auto; 
+    height: auto;
+}
+.div-merde{
+    display: flex; 
+    height: 20vh;
+}
