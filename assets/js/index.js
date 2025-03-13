@@ -1,0 +1,6 @@
+let sectionPlat=document.querySelector(".plat")
+let sectionDessert=document.querySelector(".dessert")
+let sectionBoisson=document.querySelector('.boisson')
+let plat=sectionPlat.querySelector('.card')
+let dessert=sectionDessert.querySelector('.card')
+let boisson=sectionPlat.querySelector('.card')
