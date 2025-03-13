@@ -8,7 +8,9 @@ let carte=document.querySelectorAll('.card')
 var lol
 corp_carte=document.querySelectorAll('.card-body')
 carte.forEach(element => {
-    
+    element.addEventListener('dblclick', ()=>{
+        element.remove()
+    })
     element.addEventListener('mouseover', ()=>{
         element.style.backgroundColor="gray"
     })
@@ -32,7 +34,6 @@ boisson.forEach(element => {
         element.style.boxShadow = "0.1cm 0.1cm 0.1cm red"
     })
 });
-
-
-
-
+plat[0].querySelectorAll('a')[2].addEventListener('click', ()=>{
+    
+})
