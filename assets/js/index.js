@@ -9,16 +9,17 @@ var lol
 corp_carte=document.querySelectorAll('.card-body')
 carte.forEach(element => {
     carte.forEach(element => {
-    element.addEventListener('dblclick', ()=>{
-        element.remove()
+        element.addEventListener('dblclick', ()=>{
+            element.remove()
+        })
+        element.addEventListener('mouseover', ()=>{
+            element.style.backgroundColor="gray"
+        })
+        element.addEventListener('mouseout', ()=>{
+            element.style.backgroundColor="white"
+        })
     })
-    element.addEventListener('mouseover', ()=>{
-        element.style.backgroundColor="gray"
-    })
-    element.addEventListener('mouseout', ()=>{
-        element.style.backgroundColor="white"
-    })
-});
+})
 plat.forEach(element => {
     element.addEventListener('click', ()=>{
         element.style.boxShadow = "0.1cm 0.1cm 0.1cm blue"
@@ -38,7 +39,3 @@ boisson.forEach(element => {
 plat[0].querySelectorAll('a')[2].addEventListener('click', ()=>{
     
 })
-
-
-
-
