@@ -49,3 +49,41 @@ link2.addEventListener('click', ()=>{
 link3.addEventListener('click', ()=>{
     window.location.href = "./page/recette-plat/recette-lasagne.html";
 })
+
+let pute = document.createElement("input");
+pute.type= "text";
+pute.placeholder="entrer votre adresse ici."
+pute.id = "zoneTexte"
+pute.style.width="300px"
+pute.style.height="40px";
+
+let buton = document.createElement("button")
+buton.textContent = "valider"
+buton.style.width="75px"
+buton.style.height="40px"
+
+buton.addEventListener("click", ()=>{
+    console.log("valider, "+ pute.value)
+})
+let gros= document.createElement("button")
+gros.textContent="newspapier"
+gros.style.height="40px"
+
+let message=document.createElement("p");
+message.style.display="none"
+
+buton.addEventListener("click", ()=>{
+    if (pute.value.trim() !== "") {
+        message.textContent = "Merci pour votre inscription à la newsletter !";
+        message.style.display = "block";
+    } 
+    else {
+        message.textContent = "Veuillez entrer un email valide.";
+        message.style.display = "block";
+        message.style.color = "white"; // Message d'erreur en rouge
+    }
+    })
+fot=document.querySelector('footer')
+fot.appendChild(pute)
+fot.appendChild(buton)
+fot.appendChild(message)
