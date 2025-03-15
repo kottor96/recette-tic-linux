@@ -5,7 +5,7 @@ let plat=sectionPlat.querySelectorAll('.card')
 let dessert=sectionDessert.querySelectorAll('.card')
 let boisson=sectionBoisson.querySelectorAll('.card')
 let carte=document.querySelectorAll('.card')
-var lol
+
 corp_carte=document.querySelectorAll('.card-body')
 carte.forEach(element => {
     carte.forEach(element => {
@@ -36,6 +36,16 @@ boisson.forEach(element => {
         element.style.boxShadow = "0.1cm 0.1cm 0.1cm red"
     })
 });
-plat[0].querySelectorAll('a')[2].addEventListener('click', ()=>{
-    
+
+link1=plat[0].querySelectorAll('a')[1]
+link2=plat[1].querySelectorAll('a')[1]
+link3=plat[2].querySelectorAll('a')[1]
+link1.addEventListener('click', ()=>{
+    window.location.href = "./page/recette-plat/recette-carbonara.html";
+})
+link2.addEventListener('click', ()=>{
+    window.location.href = "./page/recette-plat/recette-poulet-mariner.html";
+})
+link3.addEventListener('click', ()=>{
+    window.location.href = "./page/recette-plat/recette-lasagne.html";
 })
