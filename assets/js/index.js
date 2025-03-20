@@ -7,17 +7,16 @@ let boisson=sectionBoisson.querySelectorAll('.card')
 let carte=document.querySelectorAll('.card')
 
 corp_carte=document.querySelectorAll('.card-body')
+
 carte.forEach(element => {
-    carte.forEach(element => {
-        element.addEventListener('dblclick', ()=>{
-            element.remove()
-        })
-        element.addEventListener('mouseover', ()=>{
-            element.style.backgroundColor="gray"
-        })
-        element.addEventListener('mouseout', ()=>{
-            element.style.backgroundColor="white"
-        })
+    element.querySelector('img').addEventListener('dblclick', ()=>{
+        element.remove()
+    })
+    element.addEventListener('mouseover', ()=>{
+        element.style.backgroundColor="gray"
+    })
+    element.addEventListener('mouseout', ()=>{
+        element.style.backgroundColor="white"
     })
 })
 plat.forEach(element => {
