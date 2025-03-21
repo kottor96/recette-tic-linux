@@ -9,6 +9,7 @@ let carte=document.querySelectorAll('.card')
 corp_carte=document.querySelectorAll('.card-body')
 
 carte.forEach(element => {
+    element.style.transition="all 1s"
     element.querySelector('img').addEventListener('dblclick', ()=>{
         element.remove()
     })
@@ -17,6 +18,7 @@ carte.forEach(element => {
     })
     element.addEventListener('mouseout', ()=>{
         element.style.backgroundColor="white"
+        
     })
 })
 plat.forEach(element => {
