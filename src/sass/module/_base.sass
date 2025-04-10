@@ -1,0 +1,69 @@
+@use './_variable' as *
+@use './_mixin' as *
+h2
+    text-align: center
+
+.bg-black
+    background-color: $bg_color1
+    color: $text_color1
+
+.titre-page-boisson
+    @include titre_boisson
+    @include titre_section
+    
+.boisson
+    background-color: $color_boisson1
+    margin: 0px
+
+.carte
+    padding-top: 50px
+    padding-bottom: 50px
+
+.titre-page-dessert
+    @include titre_section
+    @include titre_dessert
+
+.dessert
+    background-color: $color_dessert1
+    margin: 0px
+
+.titre2
+    text-align: center
+    padding-top: 15px
+    padding-bottom: 15px
+    text-decoration: underline
+
+.titre-page-plat
+    @include titre_section
+    
+.plat
+    background-color: $color_plat1
+    margin: 0%
+
+.plat2
+    background-color: $color_plat3
+
+.dessert2
+    background-color: $color_dessert3
+
+.lien
+    text-align: right
+    padding-bottom: 10px
+    padding-right: 10px
+
+#merde
+    color: $color_boisson2
+
+footer
+    padding-top: 50px
+    padding-bottom: 20px
+
+.img-recette
+    max-width: 20vw
+    max-height: 20vh
+    width: auto
+    height: auto
+
+.div-merde
+    display: flex
+    height: 20vh 
