@@ -72,6 +72,10 @@ h2 {
   background-color: rgb(112, 184, 5);
 }
 
+.boisson2 {
+  background-color: rgb(160, 160, 0);
+}
+
 .lien {
   text-align: right;
   padding-bottom: 10px;
@@ -97,6 +101,10 @@ footer {
 .div-merde {
   display: flex;
   height: 20vh;
+}
+
+header h1 {
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
