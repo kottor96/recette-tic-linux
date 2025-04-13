@@ -37,6 +37,17 @@ h2 {
   background-color: green;
 }
 
+.section_recette {
+  padding: 10px 3vw;
+}
+.section_recette div {
+  justify-content: space-between;
+  gap: 3vw;
+}
+.section_recette div div {
+  max-width: 30vw;
+}
+
 .dessert {
   background-color: greenyellow;
   margin: 0px;
